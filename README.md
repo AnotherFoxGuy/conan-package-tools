@@ -2,9 +2,17 @@
 [![codecov](https://codecov.io/gh/conan-io/conan-package-tools/branch/master/graph/badge.svg)](https://codecov.io/gh/conan-io/conan-package-tools)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/conan-package-tools.svg?style=plastic)
 
+## This project is no longer recommended or maintained 🛑
+
+This project is no longer maintained, it will not get any fixes or support.
+It will be soon fully archived.
+Modern Conan 2.0 extensions can be found in https://github.com/conan-io/conan-extensions
+
+
 ## Conan 2.0 support :warning:
 
 **The project Conan Package Tools does not support Conan 2.x and there is no current planned support.**
+
 
 In case you need such support, please, open an issue explaining your current case with more details.
 
