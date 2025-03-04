@@ -26,7 +26,7 @@ if CONAN_V2:
     from conan.tools.scm import Version
     from collections import namedtuple
     from conan.errors import ConanInvalidConfiguration, ConanException
-    from conans.model.conf import ConfDefinition
+    from conan.internal.model.conf import ConfDefinition
     from conans.model.package_ref import PkgReference as PackageReference
     from conan.internal.conan_app import ConanApp
     from conan.api.model import Remote

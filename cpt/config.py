@@ -1,5 +1,5 @@
 import os.path
-from conans.model.conf import ConfDefinition
+from conan.internal.model.conf import ConfDefinition
 from cpt._compat import CONAN_V2, load, save, get_global_conf, get_evaluated_value
 
 
