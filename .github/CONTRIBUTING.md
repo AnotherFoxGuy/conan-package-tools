@@ -22,7 +22,7 @@ To contribute follow the next steps:
    to open one to gather feedback.
 2. Check that the issue has been staged to "queue" or ask @conan-io/barbarians to do it. This helps in terms of validation and discussion of
    possible implementation of the feature/fix.
-3. Fork the [CPT main repository](https://github.com/conan-io/conan-package-tools) and create a `feature/xxx` branch from the `develop` branch and develop
+3. Fork the [CPT main repository](https://github.com/AnotherFoxGuy/conan-package-tools) and create a `feature/xxx` branch from the `develop` branch and develop
    your fix/feature as discussed in previous step.
 4. Try to keep your branch updated with the `develop` branch to avoid conflicts.
 5. Open a pull request, and select `develop` as the base branch. Never open a pull request to ``master``, ``main`` or ``release/xxx`` branches.
