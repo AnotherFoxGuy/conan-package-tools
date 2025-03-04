@@ -3,7 +3,7 @@ import os
 import zipfile
 import textwrap
 
-from conans.model.manifest import FileTreeManifest
+from conan.internal.model.manifest import FileTreeManifest
 
 from tests.utils.tools import TestClient, TestServer, pos_args
 from tests.unit.utils import MockCIManager

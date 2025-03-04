@@ -10,6 +10,5 @@ if [[ "$(uname -s)" == 'Darwin' ]]; then
     pyenv activate conan
 fi
 
-conan user
-mkdir ~/.conan/data
+conan profile detect
 tox -v

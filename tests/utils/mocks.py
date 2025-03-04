@@ -6,10 +6,10 @@ from io import StringIO
 from cpt._compat import CONAN_V2
 if CONAN_V2:
     from conan import ConanFile
-    from conans.model.options import Options
+    from conan.internal.model.options import Options
     from conan.api.output import ConanOutput
     from conan.api.input import UserInput as UserIO
-    from conans.model.options import _PackageOptions as PackageOptions
+    from conan.internal.model.options import _PackageOptions as PackageOptions
 else:
     from conans import ConanFile, Options
     from conans.client.output import ConanOutput

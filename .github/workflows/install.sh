@@ -33,5 +33,5 @@ else
 fi
 
 pip install -U pip
-pip install -r cpt/requirements.txt
-pip install -r cpt/requirements_test.txt
+pip install -r requirements.txt
+pip install -r requirements_test2.txt
