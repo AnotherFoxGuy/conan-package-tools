@@ -18,16 +18,16 @@ if CONAN_V2:
     from conan.internal.api.profile import profile_loader
     from conan.internal.api.uploader import UPLOAD_POLICY_FORCE
     from conan.api.conan_api import ConanAPI
-    from conans.util.runners import conan_run
+    from conan.internal.util.runners import conan_run
     from conan.tools.files import load as _load, save as _save
-    from conans.model.recipe_ref import RecipeReference
-    from conans.util.files import chdir
+    from conan.internal.model.recipe_ref import RecipeReference
+    from conan.internal.util.files import chdir
     import tempfile
     from conan.tools.scm import Version
     from collections import namedtuple
     from conan.errors import ConanInvalidConfiguration, ConanException
     from conan.internal.model.conf import ConfDefinition
-    from conans.model.package_ref import PkgReference as PackageReference
+    from conan.api.model import PkgReference as PackageReference
     from conan.internal.conan_app import ConanApp
     from conan.api.model import Remote
     import platform
